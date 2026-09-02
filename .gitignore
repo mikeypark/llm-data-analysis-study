@@ -1,0 +1,16 @@
+# 비밀정보 - 절대 GitHub에 올리지 않기
+.env
+*.key
+secrets.*
+
+# 파이참 설정 폴더
+.idea/
+
+# 파이썬
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 주피터 노트북 체크포인트
+.ipynb_checkpoints/
