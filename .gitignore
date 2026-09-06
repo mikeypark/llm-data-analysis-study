@@ -1,4 +1,4 @@
-# 비밀정보 - 절대 GitHub에 올리지 않기
+# 비밀정보
 .env
 *.key
 secrets.*
