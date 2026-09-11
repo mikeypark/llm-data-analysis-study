@@ -102,7 +102,7 @@ requirements.txt 로 버전을 고정해도 OS나 Python 버전이 다르면 C �
 ### 확인 결과
 
 ```text
-VS Code Python 인터프리터: C:\...\llm-data-analysis-study\.venv\Scripts\python.exe
+PyCharm Python 인터프리터: C:\...\llm-data-analysis-study\.venv\Scripts\python.exe
 Notebook sys.executable: C:\...\llm-data-analysis-study\.venv\Scripts\python.exe
 Notebook Path.cwd(): C:\Users\uncle\Desktop\서울대 응용공학과\수업\2학기\대규모언어모델\git\llm-data-analysis-study
 ```
@@ -124,7 +124,7 @@ Notebook Path.cwd(): C:\Users\uncle\Desktop\서울대 응용공학과\수업\2�
 환경이 일치하면 팀원이 같은 notebook을 돌려도 동일한 결과가 나온다. 
 
 ### 한계와 추가 확인 사항
-
+VS Code 가 아닌 조금 더 익숙한 PyCharm 으로 진행.
 커널 선택 목록의 이름만 보면 안 되고, notebook 안에서 sys.executable 을 직접 출력해서 경로를 확인해야 한다.
 
 ---
