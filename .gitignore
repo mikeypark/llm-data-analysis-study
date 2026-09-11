@@ -3,7 +3,7 @@
 *.key
 secrets.*
 
-# 파이참 설정 폴더
+# 파이참 설정
 .idea/
 
 # 파이썬
@@ -12,5 +12,5 @@ __pycache__/
 .venv/
 venv/
 
-# 주피터 노트북 체크포인트
+# 주피터
 .ipynb_checkpoints/
