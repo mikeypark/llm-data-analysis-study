@@ -3,7 +3,7 @@
 ## 제출 정보
 
 - 이름: 박성주
-- GitHub ID: mikey.park
+- GitHub ID: mikeypark
 - 작성일: 2026-10-14
 
 ## 실습 목표
