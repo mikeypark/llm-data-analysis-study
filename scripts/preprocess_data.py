@@ -37,7 +37,7 @@ STATUS_MAP = {
 
 def _strip_strings(df: pd.DataFrame) -> pd.DataFrame:
     result = df.copy()
-    for col in result.select_dtypes(include="object").columns:
+    for col in result.select_dtypes(include=["object", "str"]).columns:
         result[col] = result[col].where(
             result[col].isna(),
             result[col].astype(str).str.strip(),
